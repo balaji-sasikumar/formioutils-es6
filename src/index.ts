@@ -106,7 +106,7 @@ const eachComponent = (
   });
 };
 
-export const flattenComponents = (components, includeAll) => {
+const flattenComponents = (components, includeAll) => {
   let flattened = {};
   eachComponent(
     components,

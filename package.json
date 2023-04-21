@@ -1,15 +1,15 @@
 {
   "name": "formioutils-es6",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "flattencomponents",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc index.ts"
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
+  "dependencies": {
     "lodash": "^4.17.21"
   },
   "type": "module",
