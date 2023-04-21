@@ -1,0 +1,1 @@
+flatten components formio

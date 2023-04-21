@@ -1,0 +1,24 @@
+{
+  "name": "formioutils-es6",
+  "version": "1.0.0",
+  "description": "flattencomponents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "type": "module",
+  "homepage": "https://github.com/balaji-sasikumar/formioutils-es6",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balaji-sasikumar/formioutils-es6.git"
+  },
+  "keywords": [
+    "formio",
+    "flattencomponents"
+  ]
+}
