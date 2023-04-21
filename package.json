@@ -1,14 +1,15 @@
 {
   "name": "formioutils-es6",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "flattencomponents",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "lodash": "^4.17.21"
   },
   "type": "module",
@@ -20,5 +21,8 @@
   "keywords": [
     "formio",
     "flattencomponents"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
